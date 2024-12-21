@@ -12,6 +12,8 @@ html {
     
 }
 
+
+
 .gallery {
     display: flex;
     padding: 20px; 
@@ -31,12 +33,46 @@ html {
 .navbar {
     background-color: #FFD402;
     justify-content: space-around;
-}
+} 
 
 .btnpr{
     display:flex; 
     justify-content: space-between;
 }
+
+#myVideo {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+}
+
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;             
+}  
 
 
 .stillphotos {
@@ -54,6 +90,12 @@ html {
 
 body {
     font-family: Verdana, sans-serif;
+    margin-bottom: 60px;
+    background-image: url("imgs/Rustic Scenery - Garden Bed  2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .mySlides {
@@ -113,6 +155,35 @@ img {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+
+
+
+.login-logout-card .card-header {
+    margin: 0px 0px 12px 0px;
+}
+
+.login-logout-card ul.navtabs {
+    margin: 0px 0px -12px 0px;
+}
+
+.login-logout-card li.nav-item {
+    width: 50%;
+}
+
+.login-logout-card a.nav-link {
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+    padding: 1rem;
+}
+
+.login-logout-card card-body {
+    padding: 10px 20px;
+} 
+
+
+
 
 @keyframes fade {
     from {
