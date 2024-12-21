@@ -33,3 +33,20 @@ function showSlides() {
 
     setTimeout(showSlides, 3000); // Change image every 3 seconds
 } 
+
+
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+
+    if (video.paused) {
+        video.play();
+        //btn.innerHTML = "Pause";
+    } else {
+        video.pause();
+        //btn.innerHTML = "Play";
+    }
+}
+
+//<button id="myBtn" onclick="myFunction()">Pause</button><br /> //place this tag in the INDEX file. 
