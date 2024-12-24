@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  font-family:serif;
 }
 
 @media (min-width: 768px) {
@@ -8,9 +9,68 @@ html {
   }
 }
 
-.horse{
-    
+.sector {
+    text-align: center;
+    justify-content: center;
 }
+
+.motion{
+    display:flex;
+    justify-content:center;
+}
+
+
+div.horse {
+    padding-top: 20px;
+    height: 300px;
+    width: 500px;
+    transition: 0.7s;
+    background-color: #28B9F5;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+div.horse:hover { 
+    border: 10px solid #777;
+}
+
+div.gyal {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    transition: 0.7s;
+}
+
+.gyalcontainer { 
+    display: flex;
+    justify-content: center;
+}
+
+    div.gyal:hover {
+        border: 10px solid #777;
+    }
+
+    div.gyal img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #28B9F5;
+} 
+
+
+.numbertext{
+    justify-content:center;
+    text-align:center;
+}
+
+
+
+
 
 
 
@@ -38,6 +98,7 @@ html {
 .btnpr{
     display:flex; 
     justify-content: space-between;
+    
 }
 
 #myVideo {
@@ -100,7 +161,10 @@ body {
 
 .mySlides {
     display: none;
-    align-content:center; 
+    align-content: center;
+    position: relative;
+    text-align: center;
+    transition: 0.7s;
 }
 
 img {
@@ -112,8 +176,22 @@ img {
     max-width: 1000px;
     position: relative center;
     justify-content:center;
-    
+    text-align: center; 
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 70%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background-color:#28B9F5;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FDD402;
+    text-align:center;
+    justify-content:center;
+} 
 
 /* Caption text */
 .text {
