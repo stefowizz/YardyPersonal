@@ -25,10 +25,40 @@ namespace YardyRiver.Controllers
             return View();
         }
 
+        public IActionResult Photo1()
+        {
+            return View();
+        }
+
+        public IActionResult Photo2()
+        {
+            return View();
+        }
+
+        
+        public IActionResult Photo3()
+        {
+            return View();
+        }
+
+        public IActionResult Photo4() 
+        {
+            return View();
+        }
         public IActionResult Independent()   
         {
             return View();
         }
+
+        public IActionResult BlogPage() 
+        {
+            return View();
+        }
+
+        public IActionResult Gallery()  
+        {
+            return View();
+        } 
 
         public IActionResult Community()
         {
@@ -40,7 +70,17 @@ namespace YardyRiver.Controllers
             return View();
         }
 
-        public IActionResult Services() 
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
+        public IActionResult AboutUS()
+        {
+            return View();
+        }
+
+        public IActionResult Services()  
         {
             return View();
         }
