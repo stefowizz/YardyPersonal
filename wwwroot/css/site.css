@@ -9,14 +9,142 @@ html {
   }
 }
 
+body {
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #008080; 
+}
+
+.tagline2 {
+    font-size: 300%;
+}
+
+.Jamaica {
+    text-align: left;
+}
+
+.usermessage {
+    animation: bishopmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+@keyframes bishopmove {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+.usergreeting {
+    animation: kingmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@keyframes kingmove {
+    from {
+        left: 400px;
+    }
+
+    to {
+        left: 0px; 
+    }
+}
+
+.tagline {
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 400%;
+}
+
+@keyframes newmove {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 0px;
+    }
+} 
+
+.graph {
+    animation: yourmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    gap: 100px;
+}
+
+
+@keyframes yourmove {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+
+.graph2 {
+    animation: rightmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+} 
+
+
+@keyframes rightmove {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 0px;
+    }
+} 
+
+
+
+.gallerybtn {
+    display: flex;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
 .sector {
     text-align: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .motion{
     display:flex;
     justify-content:center;
+    height: 200px;
+    width: 400px;
 }
 
 
@@ -29,17 +157,20 @@ div.horse {
     justify-content: center;
     text-align: center;
     border: 1px solid #ccc;
-}
-
-div.horse:hover { 
-    border: 10px solid #777;
-}
-
-div.gyal {
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 180px;
     transition: 0.7s;
+}
+
+    div.horse:hover {
+        border: 10px solid #FDD402;
+    }
+
+.gyal {
+    
+    border: 10px solid #ccc;
+    width: 300px;
+    transition: 0.7s;
+    position: relative;
+    text-align: center;
 }
 
 .gyalcontainer { 
@@ -47,13 +178,13 @@ div.gyal {
     justify-content: center;
 }
 
-    div.gyal:hover {
-        border: 10px solid #777;
-    }
+div.gyal:hover {
+    border: 10px solid #FDD402;
+}
 
     div.gyal img {
         width: 100%;
-        height: auto;
+        height:400px;
     }
 
 div.desc {
@@ -149,49 +280,56 @@ div.desc {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Verdana, sans-serif;
-    margin-bottom: 60px;
-    background-image: url("imgs/Rustic Scenery - Garden Bed  2.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 
-.mySlides {
-    display: none;
-    align-content: center;
-    position: relative;
-    text-align: center;
-    transition: 0.7s;
-}
 
-img {
-    vertical-align: middle;
-}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative center;
-    justify-content:center;
-    text-align: center; 
-}
 
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
-    top: 70%;
-    padding: 20px;
+    top: 96%;
     transform: translate(-50%, -50%);
-    background-color:#28B9F5;
-    background: rgba(0, 0, 0, 0.5);
-    color: #FDD402;
+    color: white;
     text-align:center;
     justify-content:center;
-} 
+}
+
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered3 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150%;
+}
+
+.centered4 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%; 
+}
+
+           
 
 /* Caption text */
 .text {
@@ -224,15 +362,91 @@ img {
     transition: background-color 0.6s ease;
 }
 
+
+
+
 .active {
     background-color: #717171;
 }
 
+
+
+.mySlides {
+    display: none;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+img {
+    vertical-align: middle;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*slide show image container*/
+.cube {
+    animation: mymove 5s infinite;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*slide show image moving left to right*/
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+} 
+
+
 /* Fading animation */
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+    animation-name:fade;
+    /*slide show*/
+    animation-duration: 5s; 
 }
+
+/*slide show image movement in measured pixels*/
+@keyframes mySlides {
+    from {
+        left: -100px;
+    }
+
+    to {
+        left: 100px;
+    }
+}
+
+/*slide show*/
+@keyframes fade {
+    from {
+        opacity: 0.8
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 
 
 
@@ -258,20 +472,15 @@ img {
 
 .login-logout-card card-body {
     padding: 10px 20px;
-} 
-
-
-
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-
-    to {
-        opacity: 1
-    }
 }
+
+
+
+
+
+
+
+
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -297,6 +506,3 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px; 
-}
