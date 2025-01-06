@@ -1,4 +1,4 @@
-﻿
+
 @{
     ViewData["Title"] = "Gallery";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,51 +8,48 @@
 
 <section class="sector">   
 
-    <div class="gyalcontainer" > 
-        
+    <div class="gyalcontainer"> 
 
-        <div class="gyal"> 
-            <a target="_blank" href="Confluence - Natures Jacuzzi.jpeg">
+
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo1">
+            <div class="gyal">
                 <img src="~/css/imgs/Confluence - Natures Jacuzzi.jpeg" alt="Jacuzzi" width="600" height="400">
-            </a>
-            <div class="desc"> Confluence - <br /> Natures Jacuzzi </div>
-        </div>
+                <div class="centered3"> Confluence - Natures Jacuzzi </div>  
+            </div>
+        </a>
 
-        
 
-        <div class="gyal">
-            <a target="_blank" href="Roaring River .jpeg">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo2">
+            <div class="gyal">
                 <img src="~/css/imgs/Roaring River .jpeg" alt="River" width="600" height="400">
-            </a>
-            <div class="desc"> Roaring River </div>
-        </div>
-
+                <div class="centered3"> Roaring River </div>
+            </div>
+        </a>
         
         
-        <div class="gyal">
-            <a target="_blank" href="Rustic Scenery - Garden Bed  2.jpeg">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo3">
+            <div class="gyal">
                 <img src="~/css/imgs/Rustic Scenery - Garden Bed  2.jpeg" alt="Garden" width="600" height="400">
-            </a>
-            <div class="desc"> Rustic Scenery - <br /> Garden Bed  2 </div>
-        </div>
+                <div class="centered3"> Rustic Scenery - <br /> Garden Bed  2 </div> 
+            </div>
+        </a>
 
-        
-        
-        <div class="gyal">
-            <a target="_blank" href="Food - Curried Ackee.jpeg">
+
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo4">
+            <div class="gyal">
                 <img src="~/css/imgs/Food - Curried Ackee.jpeg" alt="Ackee" width="600" height="400">
-            </a>
-            <div class="desc"> Food - <br /> Curried Ackee </div>
-        </div> 
-
-
+                <div class="centered3"> Food - <br /> Curried Ackee </div>
+            </div>
+        </a> 
+        
+        
     </div>
 
     <br />
     <br />
     <br /> 
 
-    <div class="motion">
+    <div class="gyalcontainer">
 
         <div class="horse">
 
@@ -60,20 +57,35 @@
                 <source src="~/css/imgs/Horseback Riding.mp4" />
             </video>
 
-            <h3> Yardy Horseback Riding </h3>
+            <h3 style="color:white;"> Yardy Horseback Riding </h3>
 
         </div> 
 
     </div>
 
-
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br /> 
-
 </section>
+
+
+<br />
+<br />
+<br /> 
+
+
+<section> 
+
+    <div class="btn btn-group btn-primary">
+
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Services">
+
+            <h4 style="color:white">Back to Services</h4>
+
+        </a>
+
+    </div>
+
+</section> 
+
+<br />
+<br />
+<br /> 
 
