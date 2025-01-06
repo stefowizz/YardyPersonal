@@ -1,14 +1,23 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
 
-<section>
+<section class="content"> 
 
-    <div style="text-align:center">
+    <div style="text-align:center;">
 
-        <h3>Jamaica’s Best <br /> Eco-Tourist Attraction</h3>
-        <p>
+        <h1 class="usergreeting">WELCOME BACK !</h1>
+          <br /><br />
+
+        <p>User Id: @ViewData["UserID"]</p>
+
+        <h3>
+            Jamaica’s Best <br />
+            Eco-Tourist Attraction
+        </h3>
+
+        <p class="usermessage">
             Rustic, tranquil and unscathed<br />
             landscapes set the stage for boundary<br />
             less experiences in the park and the<br />
@@ -16,31 +25,44 @@
             booming sugar cane belt, hillside farms<br />
             and modern technology driven farms.
         </p>
+
         <br />
         <br />
-        <p>
+
+        <p class="usergreeting">
+
             Indulge in the Jamaica’s<br />
             culture, history and out of many one<br />
             infused cuisine on the riverbed’s of our<br />
             limestone purified rushing waters from<br />
             the Roaring River that flows into the<br />
             stiller and relaxing Cabaritta awaits you.
+
         </p>
+
         <br />
-        <br />
-        <p>
+        <br /> 
+
+        <p class="usermessage">
             Completely Off The Beaten Track…
         </p>
+
         <br /><br />
-        <p>
+        
+        <p class="usergreeting">
+
             Yardy River Adventures is a Unique<br />
             Lush Rustic Paradise
-        </p>
 
+        </p> 
 
+        <div class="btn btn-lg btn-primary">
+            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Services"> Services </a>
+        </div> 
 
-        <p></p> 
-    </div>
+    </div> 
+
+        
 
 </section> 
 
