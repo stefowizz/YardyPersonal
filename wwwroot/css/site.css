@@ -393,7 +393,7 @@ div.desc {
     animation-duration: 5s;
 }
 
-/*slide show image movement in measured pixels*/
+/*slide show image movement in measured pixels*/ 
 @keyframes mySlides {
     from {
         left: -100px;
@@ -433,9 +433,9 @@ div.desc {
 }
 
 .greenline {
-    border: 20px solid #427A27;
-    width: 1348px;
-    padding: 1em;
+    border-top: 20px solid #427A27;
+    border-bottom: 20px solid #427A27;
+    width: 1600px;
     margin: 0 -7em;
 }
 
