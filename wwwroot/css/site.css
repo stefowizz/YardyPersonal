@@ -15,9 +15,19 @@ body {
     background-color: #EBF3EF;
 }
 
-.tagline2 {
-    font-size: 300%;
-}
+
+
+
+
+
+
+
+
+
+
+    .tagline2 {
+        font-size: 300%;
+    }
 
 .Jamaica {
     text-align: left;
@@ -124,15 +134,6 @@ body {
     display: flex;
     justify-content:center;
 }
-
-
-
-
-
-
-
-
-
 
 .sector {
     text-align: center;
@@ -362,7 +363,7 @@ div.desc {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #427A27;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -419,34 +420,106 @@ div.desc {
 
 
 
-    
-    
 
-
-
-/* Slideshow */
-.slideshow-container { 
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    
+.slider {
+    display: flex;
+    aspect-ratio: 16/11;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 }
 
-.greenline {
-    border-top: 20px solid #427A27;
-    border-bottom: 20px solid #427A27;
-    width: 1600px;
-    margin: 0 -7em;
+    .mySlides img {
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: contain;
+    }
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 
 
 /*slide show image container*/
 .cube {
-    animation: mymove 5s infinite;
-    width: auto;
-    height: auto;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: contain;
+} 
+
+
+
+
+
+
+/* Slideshow */
+.slideshow-container {
+    width: 100%;
     position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
 }
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+img {
+    width: 100%;
+} 
+
+
+
+
+
+
+
+
 
 /*slide show image moving left to right*/
 @keyframes mymove {
