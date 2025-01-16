@@ -476,37 +476,29 @@ div.desc {
 
 @keyframes slide {
 
-    0% {
-        transform: translateX(0);
-    }
+    0%, 15% {
+     transform: translateX(0);
+ }
 
-    25% {
-        transform: translateX(0);
-    }
+ 20%, 35% {
+     transform: translateX(-93%);
+ }
 
-    30% {
-        transform: translateX(-100%);
-    }
+ 40%, 55% {
+     transform: translateX(-185%);
+ }
 
-    50% {
-        transform: translateX(-100%);
-    }
+ 60%, 75% {
+     transform: translateX(-281%);
+ }
 
-    55% {
-        transform: translateX(-200%);
-    }
+ 80%, 95% {
+     transform: translateX(-378%);
+ }
 
-    75% {
-        transform: translateX(-200%);
-    }
-
-    80% {
-        transform: translateX(-300%);
-    }
-
-    100% {
-        transform: translateX(-300%);
-    }
+ 100% {
+     transform: translateX(0);
+ }
 }
 
 img {
