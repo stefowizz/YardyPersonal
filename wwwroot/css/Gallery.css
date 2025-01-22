@@ -1,0 +1,231 @@
+﻿
+.btn--base .outline {
+    background-color: transparent;
+    border: 1px solid hsl(var(--base));
+    color: hsl(var(--base)); 
+}
+
+
+
+.press {
+    height: 55px;
+    width: 200px;
+    line-height: 50px;
+    color:darkblue;
+    background-color: chartreuse;
+    border: solid;
+    border-color: chartreuse;
+    font-weight: 400;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+    .press:hover {
+        background-color: white;
+        color:darkblue;
+        transition:1s;
+        animation:alternate;
+    }
+
+.gallerybtn {
+    display: flex;
+    justify-content: center;     
+}
+
+.sector {
+    text-align: center;
+    justify-content: center;
+}
+
+.motion {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+}
+
+
+div.horse {
+    height: auto;
+    width: 500px;
+    transition: 1s;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #2BA9EA;
+}
+
+    div.horse:hover {
+        border: 5px solid #FDD402;
+    }
+
+.horsevidz {
+    object-fit: contain;
+    width: 100%;
+}
+
+.gyal {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #2BA9EA;
+    width: 210px;
+    height: 210px;
+    transition: 1s;
+    position: relative;
+    text-align: center;
+}
+
+    .gyal img {
+        object-fit: contain;
+    }
+
+    .gyal2 img {
+        object-fit: contain;
+    }
+
+.gyal2 {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #2BA9EA;
+    width: 210px;
+    height: 210px;
+    transition: 1s;
+    position: relative;
+    text-align: center;
+}
+
+.gyalcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+div.gyal:hover {
+    border: 5px solid #FDD402;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #28B9F5;
+}
+
+
+.numbertext {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered3 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150%;
+}
+
+.centered4 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
+}
+
+.btnpr {
+    display: flex;
+    justify-content: space-between;
+}
+
+#myVideo {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+}
+
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+
+
+.stillphotos {
+    border: 1px solid #c3c3c3;
+    justify-content: center;
+    padding: 40px;
+}
+
+.gallery {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery2 {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 70px;
+} 
