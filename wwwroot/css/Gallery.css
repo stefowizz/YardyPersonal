@@ -31,6 +31,24 @@
     color: hsl(var(--base));
 }
 
+.press2 {
+    height: 55px;
+    width: 200px;
+    line-height: 50px;
+    color: #fff;
+    background-color: chartreuse;
+    border: solid;
+    border-color: chartreuse;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
 
 
 .press {
@@ -162,11 +180,10 @@ div.desc {
     justify-content: center;
 }
 
-.centered2 {
+.centered2 { 
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
-    top: 93%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
