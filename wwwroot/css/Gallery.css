@@ -1,4 +1,18 @@
 
+/* Styles for tablets (screens between 600px and 1024px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Styles for larger screens (desktops and laptops) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 20px;
+    }
+} 
+
 
 
 
@@ -31,24 +45,7 @@
     color: hsl(var(--base));
 }
 
-.press2 {
-    height: 55px;
-    width: 200px;
-    line-height: 50px;
-    color: #fff;
-    background-color: chartreuse;
-    border: solid;
-    border-color: chartreuse;
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 10px;
-    text-transform: capitalize;
-    font-size: 20px;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    letter-spacing: 0.6px;
-}
+
 
 
 .press {
@@ -61,7 +58,7 @@
     border-color: chartreuse;
     font-weight: 400;
     padding: 10px 25px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-transform: capitalize;
     font-size: 20px;
     position: relative;
@@ -104,9 +101,7 @@ div.horse {
     text-align: center;
 }
 
-   /* div.horse hover {
-        border: 5px solid #FDD402;
-    }*/
+
 
 
 .horsevidz {
@@ -129,11 +124,13 @@ div.horse {
 
     .gyal img {
         object-fit: contain;
+        max-width:100%;
     }
 
     .gyal2 img {
         object-fit: contain;
-    }
+        max-width: 100%;
+    } 
 
 .gyal2 {
     display: flex;
@@ -152,9 +149,7 @@ div.horse {
     flex-wrap: wrap;
 }
 
-/*div.gyal:hover {
-    border: 5px solid #FDD402;
-}*/
+
 
 div.desc {
     padding: 15px;
