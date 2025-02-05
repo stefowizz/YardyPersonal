@@ -50,12 +50,12 @@
 
 .press {
     height: 55px;
-    width: 200px;
+    width: max-content;
     line-height: 50px;
-    color:darkblue;
-    background-color: chartreuse;
+    color: #28B9F5;
+    background-color: #fff;
     border: solid;
-    border-color: chartreuse;
+    border-color: #28B9F5;
     font-weight: 400;
     padding: 10px 25px;
     border-radius: 10px;
@@ -68,11 +68,12 @@
 }
 
     .press:hover {
-        background-color: white;
-        color:darkblue;
+        background-color:#2BA9EA;
+        color:#fff;
         transition:1s;
         animation:alternate;
     }
+
 
 .gallerybtn {
     display: flex;
