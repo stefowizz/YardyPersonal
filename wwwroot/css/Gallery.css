@@ -11,7 +11,7 @@
     body {
         font-size: 20px;
     }
-} 
+}  
 
 
 
@@ -20,17 +20,21 @@
 .both-sides{
     display: flex;
     justify-content:center;
+    padding-top: 40px;
 }
 
 .left-side {
+    
     display: flex;
+    justify-content: center;
     height: max-content;
     width: 65%;
     flex-wrap: wrap;
 }
 
-.right-side {
+.right-side { 
     display: flex;
+    justify-content: center;
     height: max-content;
     width: 35%;
     flex-wrap: wrap;
@@ -74,7 +78,6 @@
         animation:alternate;
     }
 
-
 .gallerybtn {
     display: flex;
     justify-content: center;     
@@ -107,8 +110,8 @@ div.horse {
 
 .horsevidz {
     object-fit: contain;
-    height: auto;
-    width: 220px;
+    height: 320px;
+    width: 320px;
     margin: 0;
     padding: 0;
 }
