@@ -1,18 +1,45 @@
 
-/* Styles for tablets (screens between 600px and 1024px) */
-@media (min-width: 600px) and (max-width: 1024px) {
+/* Default styles (for desktops) */
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
     body {
-        font-size: 18px;
+        font-size: 16px;
+
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
     }
 }
 
-/* Styles for larger screens (desktops and laptops) */
-@media (min-width: 1025px) {
+/* Mobile Phones (480px and below) */
+@media (max-width:480px) {
     body {
-        font-size: 20px;
+        font-size: 14px;
     }
-}  
 
+    .menu {
+        display: none; /* Hide desktop menu */
+    }
+
+    .mobile-menu {
+        display: block; /* Show mobile-friendly menu */
+    }
+}
+
+
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
