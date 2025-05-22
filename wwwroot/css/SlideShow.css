@@ -91,33 +91,34 @@
     margin: 0;
     padding: 0;
     object-fit: contain;
-    width: fit-content;
+    width: 600%;
     align-content: center;
     display: flex;
     position: relative; /* Prevent unnecessary overlap */
     animation: slide 30s infinite;
+    transition: transform 0.5s ease-in-out;
 } 
 
 @keyframes slide {
 
-    0%, 15% {
+    0%, 10% {
         transform: translateX(0);
     }
 
-    20%, 35% {
-        transform: translateX(-100%);
+    16.66%, 26.66% {
+        transform: translateX(-16.6667%);
     }
 
-    40%, 55% {
-        transform: translateX(-200%);
+    33.33%, 43.33% {
+        transform: translateX(-33.3333%);
     }
 
-    60%, 75% {
-        transform: translateX(-300%);
+    50%, 60% {
+        transform: translateX(-50%);
     }
 
-    80%, 95% {
-        transform: translateX(-400%);
+    66.66%, 76.66% {
+        transform: translateX(-83.3333%);
     }
 
     100% {
@@ -127,13 +128,13 @@
 
 
 .slideshow-container .wrapper .pics {
-    width: 100%;
+    width: 16.6667%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     z-index: 1; /* Default stacking order */
     margin: 0;
     scroll-snap-align: start;
-    object-fit: contain;
+    flex-shrink: 0;
 }
 
 
